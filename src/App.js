@@ -8,6 +8,7 @@ const App = () =>
   const [selectedDate, setSelectedDate] = useState(null);
   const [eventName, setEventName] = useState("");
   const [events, setEvents] = useState([]);
+  console.log('Hello');
 
   const Date_Click_Fun = (date) =>
   {
